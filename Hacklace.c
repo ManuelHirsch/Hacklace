@@ -126,7 +126,7 @@ void InitHardware(void)
 	// Note: Speed of the serial interface must not be higher than 2400 Baud.
 	// This leaves enough time for the EEPROM write operation to complete before 
 	// the next byte arrives.
-	UBRRL = (uint8_t) (114 * SER_CLK_CORRECTION);	// 2400 baud, corrected value
+	UBRRL = (uint8_t) (103.5 * SER_CLK_CORRECTION);	// 2400 baud, corrected value
 //	UBRRL = 103;						// 2400 baud, ideal value
 //	UBRRL = 207;						// 1200 baud, ideal value
 	UBRRH = 0;

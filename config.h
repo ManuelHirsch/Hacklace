@@ -45,7 +45,7 @@ Disclaimer:			This software is provided by the copyright holder "as is" and any
 #define OCR0B_CYCLE_TIME	(uint8_t)(F_CPU / 1024.0 / SYS_TIMER_FREQ + 0.5);
 
 // serial interface
-#define SER_CLK_CORRECTION	1.000		// factor to correct the serial baud rate
+#define SER_CLK_CORRECTION	1.125		// factor to correct the serial baud rate
 
 // push button
 #define PB_PORT				PORTD
